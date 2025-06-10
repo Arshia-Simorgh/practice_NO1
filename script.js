@@ -82,3 +82,41 @@ console.log(null > 10);
 console.log(null == undefined);
 console.log('' === null);
 console.log(null === undefined);
+//if and else condition and ternary operator
+// let ageLimited = +prompt('how old are you to get license?');
+// if (ageLimited < 18) {
+//   console.log('you can not get driving license');
+// } else {
+//   console.log('it is ok if you want to get license');
+// }
+// let ageLimited2 = +prompt('how old are you to get license?');
+// let drvingLicense = ageLimited2 < 19 ? 'it is illegal for you' : 'it is legal for you';
+// console.log(drvingLicense);
+//----------------------------------------------
+//multiple ?
+let moneyLimitation = 5000;
+let moneyLimit =
+  moneyLimitation < 3000
+    ? 'you are not rich enough'
+    : moneyLimitation < 8000
+    ? 'you have money but it is not enough'
+    : moneyLimitation < 9999
+    ? 'it is a good amount of money'
+    : moneyLimitation >= 10000
+    ? 'you are too rich'
+    : 'damn! you are poor';
+console.log(moneyLimit);
+// logical operator
+console.log('arshia' || 10);
+console.log('' || 0 || 'barcelona');
+console.log(0 || undefined || '' || null);
+const fName = '';
+const lName = '';
+const nickName = 'superhero';
+console.log(fName || lName || nickName || 'unknown user');
+console.log(5 && 'AJAX' && null);
+console.log(10 && 15 && 'tehran');
+console.log(!'hello world');
+console.log(!!'hello world');
+console.log(!0 || 15 || 'world');
+console.log(!null && 20 && 'world');
